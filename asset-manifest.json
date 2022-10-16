@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/communication/static/css/main.cdcafb32.css",
+    "main.js": "/communication/static/js/main.b895d6c4.js",
+    "static/js/787.2334c681.chunk.js": "/communication/static/js/787.2334c681.chunk.js",
+    "index.html": "/communication/index.html",
+    "main.cdcafb32.css.map": "/communication/static/css/main.cdcafb32.css.map",
+    "main.b895d6c4.js.map": "/communication/static/js/main.b895d6c4.js.map",
+    "787.2334c681.chunk.js.map": "/communication/static/js/787.2334c681.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cdcafb32.css",
+    "static/js/main.b895d6c4.js"
+  ]
+}
