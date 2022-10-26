@@ -1,0 +1,141 @@
+html {
+  font-size: 62.5%;
+}
+body *{
+  font-size: 1.6rem ;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+      -webkit-overflow-scrolling: touch;
+}
+body {
+margin : 0 ;
+font-family: "MS Pゴシック" ;
+}
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px #dbdbdb;
+    background-color: #fff;
+}
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+}
+/* h1 {
+  color: #ffff;
+} */
+.header button {
+  background-color: #d51649;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.header svg {
+  width: 25px;
+  height: 25px;
+}
+.message-wrap {
+  padding: 50px 0 50px 0;
+  width: 98%;
+  margin: auto;
+}
+.photo {
+  width: 50px;
+}
+
+.send-wrap {
+  background-color: #3c3c3c;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.send-wrap form {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.send-wrap button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2bc533;
+  margin-left: 5px;
+}
+.send-wrap svg {
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
+.send-wrap input {
+  width: 90%;
+  border: solid 1px #c4c4c4;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #ebebeb;
+}
+
+.message {
+  margin-top: 10px;
+  border-bottom: solid 1px #e4e4e4;
+  padding: 10px 0;
+}
+.message-inner {
+  display: flex;
+}
+.item-flex {
+  display: flex;
+  align-items: baseline;
+}
+.name {
+  font-weight: bold;
+}
+.time {
+  font-size: 1.3rem;
+    color: #969696;
+    margin-left: 10px;
+}
+.message-item {
+  margin-left: 10px;
+}
+.rogin-wrap {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.rogin-wrap button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: none;
+  border-radius: 100px;
+  background-color: #282828;
+}
+.rogin-wrap button svg {
+  width: 25px;
+  fill: #fff;
+
+}
+.button-text {
+  margin-left: 10px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+}
